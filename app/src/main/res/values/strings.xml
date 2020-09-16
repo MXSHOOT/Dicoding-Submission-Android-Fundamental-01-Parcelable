@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">dicoding.Submission</string>
+    <string name="name">Username</string>
+    <string name="content_main">Daftar 10 User</string>
+    <string name="content_rank">Value rank</string>
+    <string name="overview">Repository</string>
+    <string name="identity">Identity</string>
+    <string name="user_overview">User Overview</string>
+    <string name="content_overview">content overview</string>
+    <string name="content_identity">content identity</string>
+    <string name="title_identity">Company \nLocation </string>
+    <string name="name_me">Faris Ar Rasyid</string>
+    <string name="email_me">farisarrasyid78@gmail.com</string>
+    <string name="rank">follower \n following </string>
+    <string name="referensi">https://google.com</string>
+    <string name="referensi2">https://github.com/</string>
+</resources>
