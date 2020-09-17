@@ -1,10 +1,14 @@
 package com.example.fundamental01
 
-data class Data (
-    var name: String = "",
-    var rank: String = "",
-    var photo: String = "",
-    var overview: String = "",
-    var identity: String = ""
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-)
+@Parcelize
+data class Data (
+    var name: String?,
+    var rank: String?,
+    var photo: String?,
+    var overview: String?,
+    var identity: String?
+
+) : Parcelable

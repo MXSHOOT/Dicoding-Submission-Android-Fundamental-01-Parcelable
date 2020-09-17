@@ -9,12 +9,14 @@ import com.bumptech.glide.request.RequestOptions
 
 class detail : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
         val actionbar = supportActionBar
         actionbar!!.title = "Detail"
         actionbar.setDisplayHomeAsUpEnabled(true)
+
 
         val tvSetName: TextView = findViewById(R.id.tv_set_name)
         val imgSetPhoto: ImageView = findViewById(R.id.img_item_photo)

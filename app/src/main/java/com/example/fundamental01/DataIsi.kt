@@ -1,6 +1,6 @@
 package com.example.fundamental01
 
-object Data_Isi {
+object DataIsi {
     private var data = arrayOf(
         arrayOf(
             "Faris Ar Rasyid",
@@ -128,14 +128,9 @@ object Data_Isi {
     get() {
         val list = ArrayList<Data>()
         for (aData in data) {
-            val univ = Data()
-            univ.name = aData[0]
-            univ.rank = aData[1]
-            univ.photo = aData[2]
-            univ.overview = aData[3]
-            univ.identity = aData[4]
+            val isi = Data(aData[0],aData[1],aData[2],aData[3],aData[4])
 
-            list.add(univ)
+            list.add(isi)
         }
         return list
     }

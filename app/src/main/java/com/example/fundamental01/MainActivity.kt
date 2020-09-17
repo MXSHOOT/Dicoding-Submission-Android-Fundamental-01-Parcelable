@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         rvIsi = findViewById(R.id.rv)
         rvIsi.setHasFixedSize(true)
 
-        list.addAll(Data_Isi.listData)
+        list.addAll(DataIsi.listData)
         showRecyclerList()
     }
 
